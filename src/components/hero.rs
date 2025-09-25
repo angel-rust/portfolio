@@ -1,24 +1,47 @@
 use dioxus::prelude::*;
 
+// use the preloaded header.svg
 const HEADER_SVG: Asset = asset!("/assets/header.svg");
 
 #[component]
 pub fn Hero() -> Element {
     rsx! {
-        // We can create elements inside the rsx macro with the element name followed by a block of attributes and children.
-        div {
-            // Attributes should be defined in the element before any children
+        section {
             id: "hero",
-            // After all attributes are defined, we can define child elements and components
-            img { src: HEADER_SVG, id: "header" }
-            div { id: "links",
-                // The RSX macro also supports text nodes surrounded by quotes
-                a { href: "https://dioxuslabs.com/learn/0.6/", "📚 Learn Dioxus" }
-                a { href: "https://dioxuslabs.com/awesome", "🚀 Awesome Dioxus" }
-                a { href: "https://github.com/dioxus-community/", "📡 Community Libraries" }
-                a { href: "https://github.com/DioxusLabs/sdk", "⚙️ Dioxus Development Kit" }
-                a { href: "https://marketplace.visualstudio.com/items?itemName=DioxusLabs.dioxus", "💫 VSCode Extension" }
-                a { href: "https://discord.gg/XgGxMSkvUM", "👋 Community Discord" }
+            class: "flex flex-col items-center justify-center min-h-screen bg-slate-900 text-white text-center p-6",
+            
+            // hero image
+            img {
+                src: HEADER_SVG,
+                alt: "Header graphic",
+                class: "w-32 h-32 mb-6"
+            }
+
+            // headline
+            h1 { class: "text-4xl sm:text-6xl font-extrabold tracking-tight",
+                "Angel Medina"
+            }
+            p { class: "mt-3 text-lg text-slate-300 max-w-xl",
+                "Native Rust Engineer | Systems | Ops | Hospitality"
+            }
+
+            // links / buttons
+            div { class: "mt-6 flex flex-wrap gap-4 justify-center",
+                a { 
+                    href: "https://github.com/angel-rust",
+                    class: "px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-700 transition",
+                    "GitHub"
+                }
+                a { 
+                    href: "https://www.linkedin.com/in/angelmedina",
+                    class: "px-4 py-2 rounded-md bg-slate-700 hover:bg-slate-600 transition",
+                    "LinkedIn"
+                }
+                a { 
+                    href: "mailto:hello@angelmedina.io",
+                    class: "px-4 py-2 rounded-md border border-slate-500 hover:bg-slate-800 transition",
+                    "Email"
+                }
             }
         }
     }

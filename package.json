@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Angel Medina portfolio (Dioxus + Tailwind v4)",
+  "license": "ISC",
+  "type": "commonjs",
+  "scripts": {
+    "tw:dev": "tailwindcss -i ./tailwind.css -o ./assets/tailwind.css --watch",
+    "tw:build": "tailwindcss -i ./tailwind.css -o ./assets/tailwind.css --minify",
+    "dx": "dx serve",
+    "dev": "concurrently -k -n TAILWIND,DX \"npm:tw:dev\" \"npm:dx\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "concurrently": "^9.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}

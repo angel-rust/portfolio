@@ -1,0 +1,119 @@
+0 verbose cli /Users/trezza/.nvm/versions/node/v20.19.3/bin/node /Users/trezza/.nvm/versions/node/v20.19.3/bin/npm
+1 info using npm@11.6.0
+2 info using node@v20.19.3
+3 silly config load:file:/Users/trezza/.nvm/versions/node/v20.19.3/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/trezza/dev-rust/portfolio/.npmrc
+5 silly config load:file:/Users/trezza/.npmrc
+6 silly config load:file:/Users/trezza/.nvm/versions/node/v20.19.3/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/Users/trezza/dev-rust/portfolio/.npm-cache/_logs/2025-09-25T15_21_59_977Z-
+10 verbose logfile /Users/trezza/dev-rust/portfolio/.npm-cache/_logs/2025-09-25T15_21_59_977Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+15 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+15 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+15 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+15 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+15 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+15 silly audit   '@parcel/watcher': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-android-arm64': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-darwin-arm64': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-darwin-x64': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-freebsd-x64': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-linux-arm-glibc': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-linux-arm-musl': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-linux-arm64-glibc': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-linux-arm64-musl': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-linux-x64-glibc': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-linux-x64-musl': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-win32-arm64': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-win32-ia32': [ '2.5.1' ],
+15 silly audit   '@parcel/watcher-win32-x64': [ '2.5.1' ],
+15 silly audit   '@tailwindcss/cli': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/node': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.13' ],
+15 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.13' ],
+15 silly audit   'detect-libc': [ '2.1.1', '1.0.3' ],
+15 silly audit   'ansi-regex': [ '5.0.1' ],
+15 silly audit   'ansi-styles': [ '4.3.0' ],
+15 silly audit   braces: [ '3.0.3' ],
+15 silly audit   chalk: [ '4.1.2' ],
+15 silly audit   'supports-color': [ '7.2.0', '8.1.1' ],
+15 silly audit   chownr: [ '3.0.0' ],
+15 silly audit   cliui: [ '8.0.1' ],
+15 silly audit   'color-convert': [ '2.0.1' ],
+15 silly audit   'color-name': [ '1.1.4' ],
+15 silly audit   concurrently: [ '9.2.1' ],
+15 silly audit   'emoji-regex': [ '8.0.0' ],
+15 silly audit   'enhanced-resolve': [ '5.18.3' ],
+15 silly audit   escalade: [ '3.2.0' ],
+15 silly audit   'fill-range': [ '7.1.1' ],
+15 silly audit   'get-caller-file': [ '2.0.5' ],
+15 silly audit   'graceful-fs': [ '4.2.11' ],
+15 silly audit   'has-flag': [ '4.0.0' ],
+15 silly audit   'is-extglob': [ '2.1.1' ],
+15 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+15 silly audit   'is-glob': [ '4.0.3' ],
+15 silly audit   'is-number': [ '7.0.0' ],
+15 silly audit   jiti: [ '2.6.0' ],
+15 silly audit   lightningcss: [ '1.30.1' ],
+15 silly audit   'lightningcss-darwin-arm64': [ '1.30.1' ],
+15 silly audit   'lightningcss-darwin-x64': [ '1.30.1' ],
+15 silly audit   'lightningcss-freebsd-x64': [ '1.30.1' ],
+15 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.1' ],
+15 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.1' ],
+15 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.1' ],
+15 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.1' ],
+15 silly audit   'lightningcss-linux-x64-musl': [ '1.30.1' ],
+15 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.1' ],
+15 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.1' ],
+15 silly audit   'magic-string': [ '0.30.19' ],
+15 silly audit   micromatch: [ '4.0.8' ],
+15 silly audit   minipass: [ '7.1.2' ],
+15 silly audit   minizlib: [ '3.1.0' ],
+15 silly audit   mri: [ '1.2.0' ],
+15 silly audit   'node-addon-api': [ '7.1.1' ],
+15 silly audit   picocolors: [ '1.1.1' ],
+15 silly audit   picomatch: [ '2.3.1' ],
+15 silly audit   'require-directory': [ '2.1.1' ],
+15 silly audit   rxjs: [ '7.8.2' ],
+15 silly audit   'shell-quote': [ '1.8.3' ],
+15 silly audit   'source-map-js': [ '1.2.1' ],
+15 silly audit   'string-width': [ '4.2.3' ],
+15 silly audit   'strip-ansi': [ '6.0.1' ],
+15 silly audit   tailwindcss: [ '4.1.13' ],
+15 silly audit   tapable: [ '2.2.3' ],
+15 silly audit   tar: [ '7.5.1' ],
+15 silly audit   'to-regex-range': [ '5.0.1' ],
+15 silly audit   'tree-kill': [ '1.2.2' ],
+15 silly audit   tslib: [ '2.8.1' ],
+15 silly audit   'wrap-ansi': [ '7.0.0' ],
+15 silly audit   y18n: [ '5.0.8' ],
+15 silly audit   yallist: [ '5.0.0' ],
+15 silly audit   yargs: [ '17.7.2' ],
+15 silly audit   'yargs-parser': [ '21.1.1' ]
+15 silly audit }
+16 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 202ms
+17 silly audit report {}
+18 verbose cwd /Users/trezza/dev-rust/portfolio
+19 verbose os Darwin 24.6.0
+20 verbose node v20.19.3
+21 verbose npm  v11.6.0
+22 verbose exit 0
+23 info ok

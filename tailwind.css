@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+/* default to dark look */
+:root { color-scheme: light dark; }
+html.dark { color-scheme: dark; }
